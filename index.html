@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="whetherApk">
+            <div class="input-field">
+                <input placeholder="Search..." type="text" class="input-val">
+                <div onclick="fetchApi()" class="icn"><i class="bx bx-search"></i></div>
+            </div>
+            <img class="img" src="./images/mist.png">
+            <div class="temp">28°C</div>
+            <div class="city">
+                New York
+            </div>
+
+            <div class="app-footer">
+                <i class='bx bx-water'></i>
+                <div class="left">
+                    <div class="huminidy">48%</div>
+                    <div class="txt"> Humidity</div>
+                </div>
+                <i class='bx bx-wind'></i>
+                <div class="right">
+                    <div class="wind-speed">
+                        10.9km/h
+                    </div>
+                    <div class="wind">
+                        Wind Speed
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
